@@ -21,9 +21,6 @@ main(){
 			}
 		}
 		
-	//	x[a][b] = 1;
-	//	x[c][d] = 1;
-		
 		queue <pair<pair <int,int>, int>> q;
 		q.push({{a,b},0});
 		x[a][b]=1;
@@ -81,11 +78,5 @@ main(){
 			
 		}
 		
-//		for(int i=1; i<=8; ++i){
-//			for(int j=1; j<=8; ++j){
-//				cout<<x[i][j] <<" ";
-//			}
-//			cout<<endl;
-//		}
 	}
 }
