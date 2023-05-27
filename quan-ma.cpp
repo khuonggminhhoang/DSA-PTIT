@@ -20,7 +20,7 @@ main(){
 				x[i][j] = 0;
 			}
 		}
-		
+
 		queue <pair<pair <int,int>, int>> q;
 		q.push({{a,b},0});
 		x[a][b]=1;
@@ -77,6 +77,5 @@ main(){
 			}
 			
 		}
-		
 	}
 }
