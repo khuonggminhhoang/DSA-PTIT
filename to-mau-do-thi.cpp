@@ -91,7 +91,7 @@ int count_color_min(){
 			res++;
 		}
 	}
-	for(int i=1; i<= V; ++i) cout<<visited[i]<<endl;
+	// for(int i=1; i<= V; ++i) cout<<visited[i]<<endl;
 }
 
 int main(){
